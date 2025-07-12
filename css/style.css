@@ -1,0 +1,189 @@
+/* File: css/style.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  padding-bottom: 120px; 
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+}
+
+:root {
+    --box-color: #e2edee;
+}
+
+main {
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    background-color: var(--box-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.translate-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+}
+
+.knowledge-lang {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+    min-width: 80px;
+    padding-right: 24px;
+}
+
+.box {
+    width: 450px;
+    height: 300px;
+    background-color: #F0C6C6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+textarea{
+    width: 90%;
+    height: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    resize: none;
+}
+
+.translate-button {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.loading {
+  opacity: 0.7;
+  position: relative;
+}
+
+.loading::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #222;
+  border-top: 2px solid #fff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  z-index: 10;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.social-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 0;
+  text-align: center;
+  background: #fff6;
+  border-radius: 12px 12px 0 0;
+  padding: 18px 32px 10px 32px;
+  box-shadow: 0 -2px 12px #0001;
+  z-index: 100;
+}
+
+.social-links {
+  display: inline-block;
+}
+
+.social-title {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.social-icon:visited,
+.social-icon:active,
+.social-icon:focus,
+.social-icon:hover {
+  text-decoration: none;
+}
+
+.social-icon .icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 6px;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.social-icon.instagram .icon {
+  background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg');
+}
+.social-icon.youtube .icon {
+  background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg');
+}
+.social-icon.tiktok .icon {
+  background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg');
+}
+.social-icon.github .icon {
+  background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg');
+}
+
+.social-icon .username {
+  color: #333 !important;
+}
+
+.share-message {
+  margin-top: 14px;
+  font-size: 0.95rem;
+  color: #333;
+}

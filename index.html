@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Joel's Translator is a tool for translating text between different languages."
+    />
+    <meta
+      name="keywords"
+      content="translator, translation, languages, multilingual"
+      <meta
+      name="author"
+      content="Joel Lertua Coico, SebasXP25"
+    />
+    <meta name="robots" content="index, follow" />
+    <title>Joel's Translator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <h1>Joel's Translator</h1>
+      <section class="translate-section" role="region" aria-label="Translate Section">
+          <span class="knowledge-lang" id="translate-lang">Detect language</span>
+          <div class="box" role="textbox" aria-label="Input Text Box">
+            <textarea placeholder="Ingrese texto aquí..." id="text"></textarea>
+          </div>
+          <div class="box" role="textbox" aria-label="Output Text Box">
+            <textarea
+              readonly
+              placeholder="Traducción aquí..."
+              id="translated-text"
+            ></textarea>
+          </div>
+      </section>
+      <button class="translate-button" id="translate-button" onclick="detectAndTranslate()">
+        <span class="translate-text">Traducir</span>
+      </button>
+  </main>
+
+  <footer class="social-footer">
+    <div class="social-links">
+      <h2 class="social-title">Follow & Share</h2>
+      <a href="https://www.instagram.com/j.lertua2019/" target="_blank" title="Instagram" class="social-icon instagram">
+        <span class="icon"></span><span class="username">Instagram</span>
+      </a>
+      <a href="https://www.youtube.com/@SebasXP25" target="_blank" title="YouTube" class="social-icon youtube">
+        <span class="icon"></span><span class="username">Youtube</span>
+      </a>
+      <a href="https://www.tiktok.com/@sebasxp25" target="_blank" title="TikTok" class="social-icon tiktok">
+        <span class="icon"></span><span class="username">Tiktok</span>
+      </a>
+      <a href="https://github.com/JoelCoico25" target="_blank" title="GitHub" class="social-icon github">
+        <span class="icon"></span><span class="username">GitHub</span>
+      </a>
+      <div class="share-message">Share this project and help us grow!</div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+  </body>
+</html>
