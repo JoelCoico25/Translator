@@ -59,7 +59,7 @@ Developed by <b>Joel Lertua Coico</b>, username <b>SebasXP25</b>.
 ## 🖼️ Example Usage
 
 <div align="center">
-  <iframe width="400" height="225" src="https://www.youtube.com/embed/uk2Mzm_V8IA?rel=0" title="Demo Translator" frameborder="0" allowfullscreen style="border-radius:12px;box-shadow:0 2px 12px #0002;"></iframe>
+  <a href="https://www.youtube.com/watch?v=uk2Mzm_V8IA" target="_blank" style="font-size:1.1rem;font-weight:bold;">▶️ Watch demo video on YouTube</a>
 </div>
 
 
