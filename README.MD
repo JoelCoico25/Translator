@@ -59,17 +59,14 @@ Developed by <b>Joel Lertua Coico</b>, username <b>SebasXP25</b>.
 ## 🖼️ Example Usage
 
 <div align="center">
-  <video width="400" controls style="border-radius:12px;box-shadow:0 2px 12px #0002;">
-    <source src="./assets/Videos/VideosYoutube_1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <iframe width="400" height="225" src="https://www.youtube.com/embed/uk2Mzm_V8IA?rel=0" title="Demo Translator" frameborder="0" allowfullscreen style="border-radius:12px;box-shadow:0 2px 12px #0002;"></iframe>
 </div>
+
 
 1. Enter text in any language in the input area.
 2. Click <strong>Translate</strong>.
 3. The detected language will appear above (in English) and the Spanish translation will be shown in the output box.
 4. While processing, you'll see a loader at the top right of the detected language name.
----
 
 ## 🛡️ Error Messages
 
