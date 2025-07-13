@@ -27,6 +27,11 @@ css/
   style.css
 js/
   script.js
+assets/
+  images/
+    logo.png
+    screenshot-app.jpg
+README.md
 ```
 
 ## 🧑‍💻 Quick Start
@@ -53,7 +58,12 @@ Developed by <b>Joel Lertua Coico</b>, username <b>SebasXP25</b>.
 
 ## 🖼️ Example Usage
 
-<img src="./screenshot.png" alt="Usage example" width="400" style="border-radius:12px;box-shadow:0 2px 12px #0002;">
+<div align="center">
+  <video width="400" controls style="border-radius:12px;box-shadow:0 2px 12px #0002;">
+    <source src="./assets/Videos/VideosYoutube_1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 1. Enter text in any language in the input area.
 2. Click <strong>Translate</strong>.
@@ -71,7 +81,7 @@ If an error occurs during detection or translation, messages will be shown in Sp
 ## 🚀 Local Deployment
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/JoelCoico25/Translator
 cd Translator
 ```
 
